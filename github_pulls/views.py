@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 import json
 
-from github_pulls.models import Pull_request, pulls
+from github_pulls.models import Pull_request
 
 def index(request):
     response = json.dumps([{}])
